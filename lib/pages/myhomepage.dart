@@ -36,9 +36,10 @@ class _MyHomePageState extends State<MyHomePage> {
 
             children: [
 
-              Text("BHAKTI SHRADHHA",style:GoogleFonts.quando(textStyle: TextStyle(color: Colors.red,fontWeight: FontWeight.bold,fontSize: 30)), ),
+              Text("भक्ति श्रद्धा",style:GoogleFonts.quando(textStyle: TextStyle(color: Colors.red,fontWeight: FontWeight.bold,fontSize: 30)), ),
               SizedBox(height: 20,),//just for padding
               Container(
+                width: MediaQuery.of(context).size.width,
                 decoration: new BoxDecoration(border: new Border.all(color: Colors.green,),color: Colors.yellow,),
 
                 height: 40,
